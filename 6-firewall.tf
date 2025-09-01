@@ -48,4 +48,6 @@ resource "google_compute_firewall" "rdp" {
   }
 
   source_ranges = ["0.0.0.0/0"]
+  
+
 }
